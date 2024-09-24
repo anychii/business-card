@@ -1,0 +1,85 @@
+body {
+    margin: 20px;
+    font-family: 'Source Code Pro', monospace;
+   
+   text-rendering: optimizelegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   display: grid;
+   place-items: center;
+   padding: 1rem;
+}
+
+.avatar {
+    width: 150px;
+    padding-right: 5px;
+    height: 200px;
+
+}
+
+.card {
+    width: 395px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp7866375.jpg");
+    background-size: cover;
+    color: #c9184a;
+    border: 6px double #d8cefe;
+    height: 220px;
+    
+
+        
+}
+.skills{
+    margin-left: 8px;
+    text-align: left;
+    margin-right: 60px;
+}
+
+
+
+.name {
+   font-size: 1.25rem;
+}
+
+.occupation {
+   font-weight: 600;
+   color: #590d22;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
+.card-about {
+   margin-top: 1rem;
+   display: grid;
+   grid-auto-flow: column;
+   
+}
+
+.item {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 0.5rem;
+   }
+   
+   
+.label{
+      font-size: 1rem;
+      font-weight: 600;
+      color: #590d22;
+      padding: 1px;
+    }
+   
+   
+   .value {
+      margin-top: 0.15rem;
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+   }
+   
+
+
